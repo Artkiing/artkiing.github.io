@@ -1,43 +1,40 @@
-# 🚀 Proyecto: Portafolio Web Personal
+# 🌌 Portafolio Web
 
-¡Bienvenido al repositorio de mi portafolio web personal! Este proyecto está diseñado para presentar de manera clara, interactiva y profesional mi trayectoria, habilidades, proyectos destacados y artículos de opinión/reflexión.
+Portafolio personal de **Arturo Benjamín Rodríguez Morán**, donde presento mi perfil profesional, tecnologías, proyectos y formas de contacto.
 
----
+## 🚀 Tecnologías
 
-## 📌 Estructura y Secciones del Proyecto
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- MySQL
+- Bootstrap Icons
 
-El sitio web está compuesto por las siguientes secciones principales:
+## 📂 Contenido
 
-### 1. 🏠 Página de Inicio (`index.html`)
-* **Propósito:** Sirve como el punto de entrada principal al portafolio.
-* **Contenido:**
-  * Presentación general e introducción rápida.
-  * **Información de Contacto:** Enlaces directos a correo electrónico, redes profesionales (LinkedIn, GitHub) y formulario de contacto.
+- 🏠 Inicio
+- 👨‍💻 Sobre mí
+- ⚙️ Tecnologías
+- 📁 Proyectos
+- 📄 Currículum Vitae
+- 📝 Blog (Próximamente)
+- 📬 Contacto
 
-### 2. 📂 Portafolio (`portfolio.html` / `proyectos.html`)
-* **Propósito:** Mostrar los proyectos y trabajos desarrollados.
-* **Contenido:**
-  * Enlaces a los repositorios de código fuente.
+## ▶️ Ejecutar el proyecto
 
-### 3. 👤 Acerca de Mí (`about.html`)
-  * Resumen narrativo sobre mi historia personal, intereses, motivación profesional e hitos importantes.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Artkiing/artkiing.github.io.git
+   ```
 
-### 4. 📄 Sección de CV (`cv.html` / `curriculum.html`)
-* **Propósito:** Presentar el perfil laboral y académico de forma estructurada.
-* **Contenido:**
-  * **Logros Académicos:** Estudios, certificaciones y formación técnica.
-  * **Experiencia Profesional:** Historial laboral y funciones clave.
-  * **Habilidades:** Desglose de habilidades técnicas (*Hard Skills*) y blandas (*Soft Skills*).
+2. Abre el archivo `index.html` en tu navegador o ingresa a: 
+https://artkiing.github.io/
 
-### 5. ✍️ Sección de Blog (`blog.html`)
-* **Proximamente**
+## 👤 Autor
 
----
+**Arturo Benjamín Rodríguez Morán**
 
-## 🛠️ Tecnologías Utilizadas
-
-* **Frontend:** HTML5, CSS, JavaScript
-* **Diseño/Estilos:** CSS / Framework Bootstrap
-* **Control de Versiones:** Git & GitHub
-
---
+- GitHub: https://github.com/Artkiing
+- LinkedIn: https://www.linkedin.com/in/arturo-benjam%C3%ADn-rodriguez-moran/

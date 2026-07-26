@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio | Arturo Rodriguez</title>
 
-  <!-- Estilos e fuentes -->
+  <!-- fuentes -->
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,16 +17,17 @@
 
   <div class="stars"></div>
 
-  <!-- Encabezado / Navegación -->
+  <!-- Navegación -->
   <header>
     <nav>
-      <h2>AB</h2>
+      <h2>Artking</h2>
       <ul>
         <li><a href="#inicio"><i class="bi bi-house-door"></i> Inicio</a></li>
         <li><a href="#sobre"><i class="bi bi-person"></i> Sobre mí</a></li>
         <li><a href="#tecnologias"><i class="bi bi-cpu"></i> Tecnologías</a></li>
         <li><a href="#proyectos"><i class="bi bi-code-slash"></i> Proyectos</a></li>
         <li><a href="#cv"><i class="bi bi-file-earmark-person"></i> CV</a></li>
+        <li><a href="#blog"><i class="bi bi-journal-text"></i> Blog</a></li>
         <li><a href="#contacto"><i class="bi bi-envelope"></i> Contacto</a></li>
       </ul>
     </nav>
@@ -66,51 +67,124 @@
 
   <!-- Proyectos -->
   <section id="proyectos">
-    <h2>Mis proyectos</h2>
-    <div class="cards">
-      <div class="card proyecto">
-        <h3>Sistema Escolar</h3>
-        <p>Sistema para administrar alumnos, grupos y calificaciones.</p>
-        <a href="https://github.com/Artkiing/Practica-de-Comparaci-n-de-N-meros" target="_blank" class="btn-github">
-          <i class="bi bi-github"></i> GitHub
-        </a>
-      </div>
-      <div class="card proyecto">
-        <h3>Hackathon 1</h3>
-        <p>Landing Page colaborativa sobre venta de artículos de natación</p>
-        <a href="https://github.com/Artkiing/Practica-de-Comparaci-n-de-N-meros" target="_blank" class="btn-github">
-          <i class="bi bi-github"></i> GitHub
-        </a>
-      </div>
-      <div class="card proyecto">
-        <h3>Próximamente</h3>
-        <p>Proyecto en desarrollo continuo...</p>
-        <button class="btn-github" disabled>
-          <i class="bi bi-clock"></i> Próximamente
-        </button>
-      </div>
-    </div>
-  </section>
+  <h2>Mis proyectos</h2>
 
-  <!-- Sección Currículum Vitae (CV) -->
+  <div class="cards">
+
+    <!-- Proyecto 1 -->
+    <div class="card proyecto">
+      <h3>Sistema Escolar</h3>
+      <p>Sistema para administrar alumnos, grupos y calificaciones.</p>
+
+      <a href="https://github.com/Artkiing/Estadia" target="_blank" class="btn-github">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+
+      <a href="html/proyecto1.html" class="btn-doc">
+        <i class="bi bi-file-earmark-text"></i> Documentación
+      </a>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="card proyecto">
+      <h3>Hackathon 1</h3>
+      <p>Landing Page colaborativa sobre venta de artículos de natación.</p>
+
+      <a href="https://github.com/NinjatoTim/hackathon-generation-equipo2" target="_blank" class="btn-github">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+
+      <a href="html/proyecto2.html" class="btn-doc">
+        <i class="bi bi-file-earmark-text"></i> Documentación
+      </a>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="card proyecto">
+      <h3>Próximamente</h3>
+      <p>Proyecto en desarrollo continuo...</p>
+
+      <button class="btn-github" disabled>
+        <i class="bi bi-clock"></i> Próximamente
+      </button>
+    </div>
+
+  </div>
+</section>
+
   <section id="cv">
-    <h2>Mi Currículum Vitae</h2>
-    <div class="cv-container">
-      <!-- Reemplaza "tu_cv.pdf" por la ruta o nombre de tu archivo PDF -->
-      <iframe src="documents/cv.pdf" class="cv-viewer" title="Currículum Vitae">
-        <p>Tu navegador no soporta la visualización de PDF. <a href="tu_cv.pdf" download>Haz clic aquí para descargarlo.</a></p>
-      </iframe>
-      <div class="cv-actions">
-        <a href="tu_cv.pdf" download class="btn"><i class="bi bi-download"></i> Descargar CV</a>
-      </div>
+  <h2>Mi Currículum Vitae</h2>
+
+  <div class="cv-container">
+
+    <div class="cv-info">
+      <h3>¿Qué encontrarás en mi CV?</h3>
+
+      <p>
+        Ingeniero en Sistemas Computacionales con formación como
+        <strong>Java Full Stack Developer Jr.</strong> y experiencia en
+        desarrollo de software, soporte técnico y mantenimiento de equipos
+        de cómputo.
+      </p>
+
+      <ul>
+        <li>💻 Desarrollo con Java.</li>
+        <li>🖥️ Soporte técnico y mantenimiento de equipos.</li>
+        <li>🗄️ Bases de datos MySQL.</li>
+        <li>🌐 Desarrollo Web con HTML, CSS y JavaScript.</li>
+        <li>🚀 Proyecto de Sistema de Calificaciones en Java.</li>
+        <li>🤝 Participación en Hackathon desarrollando una Landing Page.</li>
+        <li>🎓 Bootcamp Generation México - Java Full Stack.</li>
+        <li>🇺🇸 Inglés A2.</li>
+      </ul>
+
+      <p>
+        Si deseas conocer más detalles sobre mi formación, experiencia y
+        proyectos, puedes descargar mi currículum completo.
+      </p>
+    </div>
+
+    <div class="cv-actions">
+      <a href="documents/cv.pdf" download class="btn">
+        <i class="bi bi-download"></i>
+        Descargar CV
+      </a>
+    </div>
+
+  </div>
+</section>
+  
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="coming-soon-card">
+      <i class="bi bi-hourglass-split coming-soon-icon"></i>
+      <h3>Coming Soon / Próximamente</h3>
+      <p>Estoy trabajando en artículos y reflexiones sobre desarrollo web, Java y tecnología. ¡Vuelve pronto!</p>
     </div>
   </section>
 
-  <!-- Contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
-    <p><i class="bi bi-envelope-at"></i> Email: benjaminmardz@gmail.com</p>
-    <p><i class="bi bi-github"></i> GitHub: <a href="https://github.com/Artkiing" target="_blank" style="color:#4fdcff; text-decoration:none;">github.com/Artkiing</a></p>
+
+    <div class="contacto-cards">
+      <div class="card contacto-card">
+        <i class="bi bi-envelope-at contacto-icon"></i>
+        <h3>Email</h3>
+        <p><a href="mailto:benjaminmardz@gmail.com">benjaminmardz@gmail.com</a></p>
+      </div>
+
+      <div class="card contacto-card">
+        <i class="bi bi-github contacto-icon"></i>
+        <h3>GitHub</h3>
+        <p><a href="https://github.com/Artkiing" target="_blank">github.com/Artkiing</a></p>
+      </div>
+
+      <div class="card contacto-card">
+        <i class="bi bi-linkedin contacto-icon"></i>
+        <h3>LinkedIn</h3>
+        <p><a href="https://www.linkedin.com/in/arturo-benjam%C3%ADn-rodriguez-moran/" target="_blank">arturo-benjamín-rodriguez-moran</a></p>
+      </div>
+    </div>
   </section>
 
   <footer>
