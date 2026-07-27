@@ -16,3 +16,19 @@ cards.forEach((card) => {
   
   observer.observe(card);
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.getElementById('mobile-menu');
+  const navLinks = document.getElementById('nav-links');
+
+  // Toggle Menú
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Cerrar menú al hacer clic en un enlace
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+});
