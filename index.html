@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio | Arturo Rodriguez</title>
 
-  <!-- fuentes -->
+  <!-- Fuentes -->
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -21,7 +21,11 @@
   <header>
     <nav>
       <h2>Artking</h2>
-      <ul>
+      <!-- Botón Hamburguesa para Móvil -->
+      <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menú">
+        <i class="bi bi-list"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
         <li><a href="#inicio"><i class="bi bi-house-door"></i> Inicio</a></li>
         <li><a href="#sobre"><i class="bi bi-person"></i> Sobre mí</a></li>
         <li><a href="#tecnologias"><i class="bi bi-cpu"></i> Tecnologías</a></li>
@@ -36,7 +40,7 @@
   <!-- Sección Principal / Hero -->
   <section class="hero" id="inicio">
     <h1>Arturo Benjamin Rodriguez Moran</h1>
-    <h3>Ing.Sistemas Computacionales</h3>
+    <h3>Ing. Sistemas Computacionales</h3>
     <p>Java Full Stack Developer</p>
     <a href="#proyectos" class="btn"><i class="bi bi-rocket-takeoff"></i> Ver proyectos</a>
   </section>
@@ -67,93 +71,87 @@
 
   <!-- Proyectos -->
   <section id="proyectos">
-  <h2>Mis proyectos</h2>
+    <h2>Mis proyectos</h2>
 
-  <div class="cards">
+    <div class="cards">
+      <!-- Proyecto 1 -->
+      <div class="card proyecto">
+        <h3>Sistema Escolar</h3>
+        <p>Sistema para administrar alumnos, grupos y calificaciones.</p>
+        <div class="btn-group">
+          <a href="https://github.com/Artkiing/Estadia" target="_blank" class="btn-github">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a href="html/proyecto1.html" class="btn-doc">
+            <i class="bi bi-file-earmark-text"></i> Documentación
+          </a>
+        </div>
+      </div>
 
-    <!-- Proyecto 1 -->
-    <div class="card proyecto">
-      <h3>Sistema Escolar</h3>
-      <p>Sistema para administrar alumnos, grupos y calificaciones.</p>
+      <!-- Proyecto 2 -->
+      <div class="card proyecto">
+        <h3>Hackathon 1</h3>
+        <p>Landing Page colaborativa sobre venta de artículos de natación.</p>
+        <div class="btn-group">
+          <a href="https://github.com/NinjatoTim/hackathon-generation-equipo2" target="_blank" class="btn-github">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a href="html/proyecto2.html" class="btn-doc">
+            <i class="bi bi-file-earmark-text"></i> Documentación
+          </a>
+        </div>
+      </div>
 
-      <a href="https://github.com/Artkiing/Estadia" target="_blank" class="btn-github">
-        <i class="bi bi-github"></i> GitHub
-      </a>
-
-      <a href="html/proyecto1.html" class="btn-doc">
-        <i class="bi bi-file-earmark-text"></i> Documentación
-      </a>
+      <!-- Proyecto 3 -->
+      <div class="card proyecto">
+        <h3>Próximamente</h3>
+        <p>Proyecto en desarrollo continuo...</p>
+        <div class="btn-group">
+          <button class="btn-github" disabled style="opacity: 0.6; cursor: not-allowed;">
+            <i class="bi bi-clock"></i> Próximamente
+          </button>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <!-- Proyecto 2 -->
-    <div class="card proyecto">
-      <h3>Hackathon 1</h3>
-      <p>Landing Page colaborativa sobre venta de artículos de natación.</p>
-
-      <a href="https://github.com/NinjatoTim/hackathon-generation-equipo2" target="_blank" class="btn-github">
-        <i class="bi bi-github"></i> GitHub
-      </a>
-
-      <a href="html/proyecto2.html" class="btn-doc">
-        <i class="bi bi-file-earmark-text"></i> Documentación
-      </a>
-    </div>
-
-    <!-- Proyecto 3 -->
-    <div class="card proyecto">
-      <h3>Próximamente</h3>
-      <p>Proyecto en desarrollo continuo...</p>
-
-      <button class="btn-github" disabled>
-        <i class="bi bi-clock"></i> Próximamente
-      </button>
-    </div>
-
-  </div>
-</section>
-
+  <!-- CV -->
   <section id="cv">
-  <h2>Mi Currículum Vitae</h2>
+    <h2>Mi Currículum Vitae</h2>
+    <div class="cv-container">
+      <div class="cv-info">
+        <h3>¿Qué encontrarás en mi CV?</h3>
+        <p>
+          Ingeniero en Sistemas Computacionales con formación como
+          <strong>Java Full Stack Developer Jr.</strong> y experiencia en
+          desarrollo de software, soporte técnico y mantenimiento de equipos
+          de cómputo.
+        </p>
+        <ul>
+          <li>💻 Desarrollo con Java.</li>
+          <li>🖥️ Soporte técnico y mantenimiento de equipos.</li>
+          <li>🗄️ Bases de datos MySQL.</li>
+          <li>🌐 Desarrollo Web con HTML, CSS y JavaScript.</li>
+          <li>🚀 Proyecto de Sistema de Calificaciones en Java.</li>
+          <li>🤝 Participación en Hackathon desarrollando una Landing Page.</li>
+          <li>🎓 Bootcamp Generation México - Java Full Stack.</li>
+          <li>🇺🇸 Inglés A2.</li>
+        </ul>
+        <p>
+          Si deseas conocer más detalles sobre mi formación, experiencia y
+          proyectos, puedes descargar mi currículum completo.
+        </p>
+      </div>
 
-  <div class="cv-container">
-
-    <div class="cv-info">
-      <h3>¿Qué encontrarás en mi CV?</h3>
-
-      <p>
-        Ingeniero en Sistemas Computacionales con formación como
-        <strong>Java Full Stack Developer Jr.</strong> y experiencia en
-        desarrollo de software, soporte técnico y mantenimiento de equipos
-        de cómputo.
-      </p>
-
-      <ul>
-        <li>💻 Desarrollo con Java.</li>
-        <li>🖥️ Soporte técnico y mantenimiento de equipos.</li>
-        <li>🗄️ Bases de datos MySQL.</li>
-        <li>🌐 Desarrollo Web con HTML, CSS y JavaScript.</li>
-        <li>🚀 Proyecto de Sistema de Calificaciones en Java.</li>
-        <li>🤝 Participación en Hackathon desarrollando una Landing Page.</li>
-        <li>🎓 Bootcamp Generation México - Java Full Stack.</li>
-        <li>🇺🇸 Inglés A2.</li>
-      </ul>
-
-      <p>
-        Si deseas conocer más detalles sobre mi formación, experiencia y
-        proyectos, puedes descargar mi currículum completo.
-      </p>
+      <div class="cv-actions">
+        <a href="documents/cv.pdf" download class="btn">
+          <i class="bi bi-download"></i> Descargar CV
+        </a>
+      </div>
     </div>
-
-    <div class="cv-actions">
-      <a href="documents/cv.pdf" download class="btn">
-        <i class="bi bi-download"></i>
-        Descargar CV
-      </a>
-    </div>
-
-  </div>
-</section>
+  </section>
   
+  <!-- Blog -->
   <section id="blog">
     <h2>Blog</h2>
     <div class="coming-soon-card">
@@ -163,9 +161,9 @@
     </div>
   </section>
 
+  <!-- Contacto -->
   <section id="contacto">
     <h2>Contacto</h2>
-
     <div class="contacto-cards">
       <div class="card contacto-card">
         <i class="bi bi-envelope-at contacto-icon"></i>
